@@ -1,10 +1,8 @@
 #!/bin/bash
 # V. 1.0.0 (Linux)
 
-efidir="/home/caleb/hackintosh/Repo/EFI"
-
 echo "Starting ProperTree..."
-python3 /home/caleb/hackintosh/propertree/ProperTree.py "$efidir/OC/config.plist"
+python3 /home/caleb/hackintosh/propertree/ProperTree.py /home/caleb/hackintosh/EFI/hackintosh/EFI/HP-Notebook-by-1022cl/EFI/OC/config.plist
 
 echo "Preparing to copy EFI..."
 rm -rf /media/caleb/ESP/EFI
@@ -13,7 +11,7 @@ echo "Copying new EFI..."
 cp -r /home/caleb/hackintosh/EFI/hackintosh/EFI/HP-Notebook-by-1022cl/EFI /media/caleb/ESP/EFI
 
 read -p "Commit message (leave empty to skip): > " message
-cd /home/caleb/hackintosh/Repo
+cd /home/caleb/hackintosh/EFI/hackintosh
 
 if [[ -n "$message" ]]; then
 	echo "Pushing to GitHub..."

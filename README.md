@@ -19,6 +19,9 @@ You are free to open issues, but I will not use them.
 - Ethernet: Realtek RTL8111 Gigabit Ethernet
 - Audio: Realtek ALC236
 
+- macOS: Sequoia
+- Bootloader: OpenCore 1.0.4
+
 (*): Hardware has been changed from the original.
 
 # Tools
