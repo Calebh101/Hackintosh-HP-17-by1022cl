@@ -26,4 +26,4 @@ You are free to open issues, but I will not use them.
 
 # Tools
 
-- editefi: An editing script for my EFI. Has been phased out.
+- editefi: An editing script for my EFI. It opens the config in ProperTree, then copies and (optionally) pushes the result to GitHub.
