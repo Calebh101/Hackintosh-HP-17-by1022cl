@@ -448,13 +448,13 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BgCbPg==</data>
+				<data>CQClPg==</data>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AADAAQ==</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AAAAAA==</data>
 			</dict>
