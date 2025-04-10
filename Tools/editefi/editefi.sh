@@ -22,7 +22,7 @@ echo "Copying new EFI..."
 cp -r "$efi" "$volumedir/EFI"
 
 read -p "Commit message (leave empty to skip): > " message
-cd $
+cd "$repo"
 
 if [[ -n "$message" ]]; then
 	echo "Pushing to GitHub..."
