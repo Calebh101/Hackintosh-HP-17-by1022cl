@@ -447,8 +447,8 @@
 			<dict/>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>BAClPg==</data>
+				<key>AAPL00,override-no-connect</key>
+				<data>YQAgICBuIhBSbjwP/0gQAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAQ1n4ANiAwMBqEYVJAHBMYAAAQ1n4ANiAwMBqEYVJAKhwBAQEBAQEBAQEBAQEBAQEBAAAAVFAdJp1QWZ6F7gJ4FSaVBAEcGAAAAAAinq8GAP///////wA=</data>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
 				<key>framebuffer-patch-enable</key>
