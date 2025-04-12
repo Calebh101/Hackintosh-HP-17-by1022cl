@@ -50,7 +50,7 @@
 				<key>Comment</key>
 				<string>Defines PNLF device with a _UID of 19 for backlight control - requires PNLF to XNLF rename</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
@@ -316,7 +316,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>UE5MRg==</data>
 				<key>Limit</key>
@@ -459,12 +459,10 @@
 				<data>pT4AAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>AADAAQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1486,7 +1484,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11 -igfxblr -igfxvesa</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=11 -igfxblt -igfxbls</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
