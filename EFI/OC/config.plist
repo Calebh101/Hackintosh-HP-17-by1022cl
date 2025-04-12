@@ -54,6 +54,14 @@
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom SSDT for patching Intel iGPU (UHD 620, Whiskey Lake)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DSPLY.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -447,10 +455,6 @@
 			<dict/>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wAGr54iAAAAABgcAQSVJhV4Au6FnllQnSYdUFQAAAABAQEBAQEBAQEBAQEBAQEBHCpAUmGEGjAwIDYAftYQAAAYExxAUmGEGjAwIDYAftYQAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQSP8PPG5SECJuICAgAGE=</data>
-				<key>device-id</key>
-				<data>pT4AAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
