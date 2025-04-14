@@ -1,8 +1,6 @@
 # My EFI. Not yours.
 
-I do not accept help requests, issues, or queries about my EFI. It's not a prebuilt.
-
-You are free to open issues, but I will not use them.
+I do not accept help requests, issues, or queries about my EFI. End of story.
 
 # Hardware
 
@@ -14,6 +12,7 @@ You are free to open issues, but I will not use them.
 - dGPU: none
 - Memory (*): 16GB DDR4 RAM
 - Storage (*): SATA SSD
+- Optical drive (*): none
 - Wi-Fi (*): Intel AX200NGW
 - Bluetooth (*): Intel AX200NGW
 - Ethernet: Realtek RTL8111 Gigabit Ethernet
