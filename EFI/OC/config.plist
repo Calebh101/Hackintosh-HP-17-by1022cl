@@ -54,14 +54,6 @@
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Custom SSDT for patching Intel iGPU (UHD 620, Whiskey Lake)</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-DSPLY.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -468,36 +460,14 @@
 			<dict/>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wAGr54iAAAAABgcAQSQJhV4Au6FnllQnSYdUFQAAAABAQEBAQEBAQEBAQEBAQEBHCpAUmGEGjAwIDYAftYQAAAYExxAUmGEGjAwIDYAftYQAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQSP8PPG5SECJuICAgAGY=</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con1-busid</key>
-				<data>AgAAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AADAAQ==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel CoffeeLake-U GT3e [Iris Plus Graphics 655]</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1519,7 +1489,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11 -igfxblt -igfxbls igfxonln=1 igfxrpsc=1 -igfxhdmidivs</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=11 -wegdbg -liludbg</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
