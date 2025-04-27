@@ -464,6 +464,8 @@
 				<data>CQClPg==</data>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
+				<key>disable-agdc</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
@@ -471,6 +473,10 @@
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-type </key>
 				<data>AAgAAA==</data>
 			</dict>
 		</dict>
