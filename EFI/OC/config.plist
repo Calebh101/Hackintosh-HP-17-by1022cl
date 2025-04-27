@@ -474,10 +474,12 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
+				<key>framebuffer-con1-busid</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type </key>
-				<data>AAgAAA==</data>
+				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
