@@ -26,3 +26,8 @@ I do not accept help requests, issues, or queries about my EFI. End of story.
 # Tools
 
 - editefi: An editing script for my EFI. It opens the config in ProperTree, then copies and (optionally) pushes the result to GitHub.
+
+# Notes
+
+- CFG lock disable
+    - F.72: `placeholder command`
