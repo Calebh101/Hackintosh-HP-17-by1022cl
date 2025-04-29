@@ -30,4 +30,4 @@ I do not accept help requests, issues, or queries about my EFI. End of story.
 # Notes
 
 - CFG lock disable
-    - F.72: `placeholder command`
+    - F.72: `setup_var_cv CpuSetup 0x3E 0x01 0x00`
