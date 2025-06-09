@@ -460,6 +460,8 @@
 			<dict/>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAGr54iAAAAABgcAQSVJhV4Au6FnllQnSYdUFQAAAABAQEBAQEBAQEBAQEBAQEBHCpAUmGEGjAwIDYAftYQAAAYExxAUmGEGjAwIDYAftYQAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQSP8PPG5SECJuICAgAGE=</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
 				<key>AAPL,slot-name</key>
@@ -1535,7 +1537,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11 igfxonln=1 igfxrpsc=1 -igfxbls -igfxfbdump -igfxhdmidivs</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=11 igfxonln=1 igfxrpsc=1 -igfxblt -igfxbls -igfxfbdump -igfxhdmidivs</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1606,23 +1608,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF929404QX0000FB</string>
+			<string>C02001403QX0000AD</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>cFaBPtKG</data>
+			<data>eP2Ubcy4</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZ3LYEL40Y</string>
+			<string>C02C2TZWMD6T</string>
 			<key>SystemUUID</key>
-			<string>0E760BF7-D3AB-4D7A-9944-344A150BF602</string>
+			<string>7725D09E-47C9-4C7A-92D5-299980CABCCD</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
