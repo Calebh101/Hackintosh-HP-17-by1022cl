@@ -445,39 +445,16 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>layout-id</key>
-				<data>MTEtAA==</data>
-				<key>model</key>
-				<string>Cannon Point-LP High Definition Audio Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<dict/>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wAGr54iAAAAABgcAQSVJhV4Au6FnllQnSYdUFQAAAABAQEBAQEBAQEBAQEBAQEBHCpAUmGEGjAwIDYAftYQAAAYExxAUmGEGjAwIDYAftYQAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQSP8PPG5SECJuICAgAGE=</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>model</key>
-				<string>Intel CoffeeLake-U GT3e [Iris Plus Graphics 655]</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-con0-busid</key>
+				<data>CQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-busid</key>
@@ -887,9 +864,27 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
-				<string>22.6.0</string>
+				<string>21.9.9</string>
 				<key>MinKernel</key>
-				<string>21.0.1</string>
+				<string>21.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CpuTscSync.kext</string>
+				<key>Comment</key>
+				<string>CpuTscSync.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CpuTscSync</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1557,7 +1552,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11 igfxonln=1 igfxrpsc=1 -igfxblt -igfxbls -igfxfbdump -igfxhdmidivs igfxfw=2 -lilubetaall -igfxvesa</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=11 igfxonln=1 igfxrpsc=1 -igfxblt -igfxbls -igfxhdmidivs -igfxnotelemetryload -lilubetaall -igfxvesa applbkl=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1628,23 +1623,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02001403QX0000AD</string>
+			<string>C02042130J9P8PGCB</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>eP2Ubcy4</data>
+			<data>UOrWDu3b</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro16,4</string>
+			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C2TZWMD6T</string>
+			<string>C02DK00VML7H</string>
 			<key>SystemUUID</key>
-			<string>7725D09E-47C9-4C7A-92D5-299980CABCCD</string>
+			<string>7CAE917D-8C56-498E-BE7A-B28433F4A4C7</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
