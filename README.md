@@ -37,7 +37,7 @@ I do not accept help requests, issues, or queries about my EFI. End of story.
     - Command:
         - F.72: `setup_var_cv SaSetup 0x107 0x01 VALUE`
     - Values (replace `VALUE` with the hexadecimal format (E.G. 0x02)):
-        - OMB: 0
+        - 0MB: 0
         - 4MB: 240
         - 8MB: 241
         - 12MB: 242
