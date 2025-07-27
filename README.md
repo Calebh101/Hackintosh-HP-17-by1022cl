@@ -18,14 +18,15 @@ I do not accept help requests, issues, or queries about my EFI. End of story.
 - Ethernet: Realtek RTL8111 Gigabit Ethernet
 - Audio: Realtek ALC236
 
-- macOS: Sequoia
-- Bootloader: OpenCore 1.0.4
-
 (*): Hardware has been changed from the original.
 
 # Tools
 
 - editefi: An editing script for my EFI. It opens the config in ProperTree, then copies and (optionally) pushes the result to GitHub.
+
+# Resources
+
+- A copy of my BIOS, from HP's website.
 
 # Notes
 
