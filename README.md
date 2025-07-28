@@ -10,6 +10,7 @@ I do not accept help requests, issues, or queries about my EFI. End of story.
 - CPU: Intel Core i5-8265U
 - iGPU: Intel UHD 620
 - dGPU: none
+- Motherboard: HP 8530 Cannon Point LPC
 - Memory (*): 16GB DDR4 RAM
 - Storage (*): SATA SSD
 - Optical drive (*): none
@@ -55,3 +56,4 @@ I do not accept help requests, issues, or queries about my EFI. End of story.
         - 56MB: 253
         - 60MB: 254
         - 64MB: 2
+- MATs support: Yes
